@@ -13,6 +13,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.2.2",
     "clsx": "^2.1.0",
+    "express": "^4.18.2",
     "framer-motion": "^11.0.5",
     "lucide-react": "^0.338.0",
     "next": "14.1.0",
