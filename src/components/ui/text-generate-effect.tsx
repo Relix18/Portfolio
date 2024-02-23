@@ -26,7 +26,7 @@ export const TextGenerateEffect = ({
         }
       );
     }
-  }, [isInView]);
+  }, [isInView, animate]);
 
   const renderWords = () => {
     return (

@@ -21,7 +21,9 @@ const Contact = () => {
       id="contact"
       className="my-8 md:my-0 h-full md:h-[40rem] w-full bg-neutral-950 relative flex items-center justify-center flex-col antialiased"
     >
-      <h1 className="text-3xl md:text-5xl z-10 mb-8">Let's Work Together</h1>
+      <h1 className="text-3xl md:text-5xl z-10 mb-8">
+        Let&#39;s Work Together
+      </h1>
       <div className="w-11/12 md:w-3/4 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="w-full md:w-2/3 p-4 ">
           <form

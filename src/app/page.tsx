@@ -24,14 +24,15 @@ export default function Home() {
       <Spotlight className="-top-40 left-0 md:left-10 md:top-10" fill="green" />
 
       <div className="md:w-3/5 w-full">
-        <p className="md:text-3xl text-xl font-semibold">Hi, I'm</p>
+        <p className="md:text-3xl text-xl font-semibold">Hi, I&#39;m</p>
         <h1 className="md:text-9xl text-6xl -ml-1 md:-ml-2">Relix</h1>
         <TypewriterEffectSmooth words={word} />
         <p className="mt-8 text-lg font-thin">
-          If you're looking for MERN Stack Developer who is not just proficient
-          but passionate about turning concepts into reality, let's connect! I'm
-          always excited about new opportunities and challenges that push the
-          boundaries of what's possible in web development.
+          If you&#39;re looking for MERN Stack Developer who is not just
+          proficient but passionate about turning concepts into reality,
+          let&#39;s connect! I&#39;m always excited about new opportunities and
+          challenges that push the boundaries of what&#39;s possible in web
+          development.
         </p>
         <p className="mt-8 text-lg font-thin"></p>
       </div>
