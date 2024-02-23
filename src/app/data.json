@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "VistaKart",
+      "url": "https://vistakartv1.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545483/portfolio/k3yc1rq9jkoukavnjdhf.jpg",
+      "desc": "An ecommerce platform for selling and buying products. Built with MERN stack."
+    },
+    {
+      "name": "XCrypto",
+      "url": "https://xcrypto-beta.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545484/portfolio/wmnydir3rnytnm3119ba.jpg",
+      "desc": "Crypto currency price tracker, API call and chart. Built with React.js."
+    },
+    {
+      "name": "MBA Chai Wala",
+      "url": "https://mbc-proj.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545483/portfolio/cqeogmced3iwof3b4vlr.png",
+      "desc": "MBA Chai Wala frontend project with parallax and animation. Built with React.js."
+    },
+    {
+      "name": "Next To Do",
+      "url": "https://next-darktodo.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545483/portfolio/vvrzwjwxfbcwzbrlxetg.jpg",
+      "desc": "To do application with authentication. Built with Next.js."
+    }
+  ]
+}
