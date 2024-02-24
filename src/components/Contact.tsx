@@ -1,21 +1,16 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import { Mail, Instagram, Github, Linkedin } from "lucide-react";
 import Link from "next/link";
+import submit from "@/actions/action";
+import { isEmail } from "validator";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
-  const [message, setMessage] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const ref = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log(message);
-  };
   return (
     <div
       id="contact"
@@ -27,29 +22,36 @@ const Contact = () => {
       <div className="w-11/12 md:w-3/4 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="w-full md:w-2/3 p-4 ">
           <form
+            ref={ref}
             className="flex items-center justify-center flex-col"
-            onSubmit={(e) => handleSubmit(e)}
+            action={async (formData) => {
+              if (!isEmail(formData.get("email") as string)) {
+                return toast.error("Please enter a valid email");
+              }
+              await submit(formData);
+              toast.success("Email sent successfully");
+              ref.current?.reset();
+            }}
           >
             <input
               type="text"
               placeholder="Name"
-              onChange={(e) => setMessage({ ...message, name: e.target.value })}
+              name="name"
               className="rounded-lg p-3 border border-neutral-800 focus:ring-1 focus:shadow-[0_0_10px_0px_rgb(62,102,193)] outline-none  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
+              required
             />
             <input
               type="text"
               placeholder="Your Email"
-              onChange={(e) =>
-                setMessage({ ...message, email: e.target.value })
-              }
+              name="email"
               className="rounded-lg p-3 border border-neutral-800 focus:ring-1 focus:shadow-[0_0_10px_0px_rgb(62,102,193)] outline-none w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
+              required
             />
             <textarea
               placeholder="Message"
-              onChange={(e) =>
-                setMessage({ ...message, message: e.target.value })
-              }
+              name="message"
               className="resize-none p-3 h-40 rounded-lg border border-neutral-800 focus:ring-1 focus:shadow-[0_0_10px_0px_rgb(62,102,193)] outline-none  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
+              required
             />
             <button
               type="submit"

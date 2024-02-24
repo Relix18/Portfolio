@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Toaster } from "react-hot-toast";
 
 const fira = Fira_Code({
   subsets: ["latin"],
@@ -24,6 +25,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={fira.className}>
         <div className="relative w-full flex items-center justify-center bg-[#0A1415] flex-col">
+          <Toaster
+            position="bottom-left"
+            toastOptions={{
+              className: "",
+              style: {
+                border: "1px solid #31b6c2",
+                padding: "16px",
+                color: "#fff",
+                backgroundColor: "#0A1415",
+              },
+            }}
+          />
           <Navbar />
           {children}
         </div>
