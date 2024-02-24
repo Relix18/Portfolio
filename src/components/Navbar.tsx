@@ -15,21 +15,21 @@ const Navbar = ({ className }: { className?: string }) => {
     >
       <Link
         href="/"
-        className="text-xl underline underline-offset-4 text-black dark:text-white"
+        className="text-xl underline underline-offset-4 text-white"
       >
         Home
       </Link>
 
-      <Link href="#about" className="text-xl text-black dark:text-white">
+      <Link href="#about" className="text-xl text-white">
         About
       </Link>
-      <Link href="#skills" className="text-xl text-black dark:text-white">
+      <Link href="#skills" className="text-xl text-white">
         Skills
       </Link>
-      <Link href="#projects" className="text-xl text-black dark:text-white">
+      <Link href="#projects" className="text-xl text-white">
         Projects
       </Link>
-      <Link href="#contact" className="text-xl text-black dark:text-white">
+      <Link href="#contact" className="text-xl text-white">
         Contact
       </Link>
     </div>

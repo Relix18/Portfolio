@@ -15,7 +15,7 @@ export default function Hero() {
     },
     {
       text: "Developer.",
-      className: "text-blue-500 dark:text-[#3EC642]",
+      className: "text-[#3EC642]",
     },
   ];
 
