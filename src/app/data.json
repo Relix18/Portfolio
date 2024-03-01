@@ -12,17 +12,18 @@
       "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545484/portfolio/wmnydir3rnytnm3119ba.jpg",
       "desc": "Crypto currency price tracker, API call and chart. Built with React.js."
     },
-    {
-      "name": "MBA Chai Wala",
-      "url": "https://mbc-proj.vercel.app",
-      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545483/portfolio/cqeogmced3iwof3b4vlr.png",
-      "desc": "MBA Chai Wala frontend project with parallax and animation. Built with React.js."
-    },
+
     {
       "name": "Next To Do",
       "url": "https://next-darktodo.vercel.app",
       "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545483/portfolio/vvrzwjwxfbcwzbrlxetg.jpg",
       "desc": "To do application with authentication. Built with Next.js."
+    },
+    {
+      "name": "Messenger",
+      "url": "https://messengerv1.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1709295184/portfolio/bnmpkexbtjd7bv8goew8.png",
+      "desc": "Messenger is a social media application. Built with Next.js, Tailwind, and MongoDB."
     }
   ]
 }

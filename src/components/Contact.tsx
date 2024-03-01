@@ -62,30 +62,34 @@ const Contact = () => {
           </form>
         </div>
         <div className="w-full md:w-1/3 flex justify-center items-center md:grid grid-cols-2 gap-4 md:gap-8 py-8 z-10">
-          <Link
+          <a
             href="https://github.com/Relix18"
             className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center aspect-square bg-[#0a1415] shadow-[0_0_10px_0px_rgb(62,102,193)] rounded-full"
+            target="_blank"
           >
             <Github className="w-full h-full p-3" />
-          </Link>
-          <Link
+          </a>
+          <a
             href="https://www.linkedin.com/in/relixcoding/"
             className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center aspect-square bg-[#0a1415] shadow-[0_0_10px_0px_rgb(62,102,193)] rounded-full"
+            target="_blank"
           >
             <Linkedin className="w-full h-full p-3" />
-          </Link>
-          <Link
+          </a>
+          <a
             href="mailto:relix049@gmail.com"
             className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center aspect-square bg-[#0a1415] shadow-[0_0_10px_0px_rgb(62,102,193)] rounded-full"
+            target="_blank"
           >
             <Mail className="w-full h-full p-3" />
-          </Link>
-          <Link
+          </a>
+          <a
             href="https://www.instagram.com/ig_relix/"
             className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center aspect-square bg-[#0a1415] shadow-[0_0_10px_0px_rgb(62,102,193)] rounded-full"
+            target="_blank"
           >
             <Instagram className="w-full h-full p-3" />
-          </Link>
+          </a>
         </div>
       </div>
       <BackgroundBeams className="bg-[#0A1415]" />
