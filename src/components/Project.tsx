@@ -14,15 +14,13 @@ const Project = () => {
           Projects
         </Border>
         <div className="h-[30rem] rounded-md flex flex-col bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-          <InfiniteMovingCards
+          {/* <InfiniteMovingCards
             items={projects.projects}
             speed="normal"
             pauseOnHover={true}
-          />
+          /> */}
 
-          <h1 className="mt-20 text-xl md:text-2xl">
-            More Projects Coming Soon...
-          </h1>
+          <h1 className="mt-20 text-xl md:text-2xl">Projects Coming Soon...</h1>
         </div>
       </div>
     </div>
