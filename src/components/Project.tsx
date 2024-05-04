@@ -9,7 +9,7 @@ const Project = () => {
       id="projects"
       className="bg-[#132324] w-full flex justify-center overflow-hidden"
     >
-      <div className="w-3/4 py-8 md:py-16 flex justify-center items-center flex-col">
+      <div className="w-3/4  py-8 md:py-16 flex justify-center items-center flex-col">
         <Border borderRadius="1.75rem" color="green" className="text-2xl">
           Projects
         </Border>
