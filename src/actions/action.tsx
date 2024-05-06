@@ -13,7 +13,7 @@ const submit = async (formData: FormData) => {
       to: process.env.RECIEVER,
       subject: `Message from ${name}`,
       text: "Portfolio",
-      html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
+      html: `<center><h2>Portfolio</h2></center><p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
     });
   } catch (error) {
     return new Error("Something went wrong");
