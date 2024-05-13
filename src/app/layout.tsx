@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={fira.className}>
         <div className="relative w-full flex items-center justify-center bg-[#0A1415] flex-col">
           <Toaster
-            position="bottom-left"
+            position="bottom-right"
             toastOptions={{
               className: "",
               style: {

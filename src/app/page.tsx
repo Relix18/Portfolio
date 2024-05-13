@@ -8,14 +8,12 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 
 const page = () => {
   return (
-    <div>
-      <TracingBeam>
-        <Hero />
-        <About />
-        <Skills />
-        <Project />
-        <Contact />
-      </TracingBeam>
+    <div className="w-full h-full">
+      <Hero />
+      <About />
+      <Skills />
+      <Project />
+      <Contact />
     </div>
   );
 };
