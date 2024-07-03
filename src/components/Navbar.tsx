@@ -4,7 +4,6 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 
 const Navbar = ({ className }: { className?: string }) => {
-  const nameString: string = "<Relix/>";
   return (
     <div className="fixed w-full bg-slate-700/20 backdrop-blur z-50 top-0">
       <div
@@ -14,7 +13,7 @@ const Navbar = ({ className }: { className?: string }) => {
         )}
       >
         <div>
-          <h1 className="text-2xl text-[#3EC642]">{nameString}</h1>
+          <h1 className="text-2xl text-[#3EC642]">{"<Relix/>"}</h1>
         </div>
         <div className="w-1/2 flex justify-between">
           <Link

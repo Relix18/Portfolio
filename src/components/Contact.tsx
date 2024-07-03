@@ -2,7 +2,8 @@
 
 import React, { useRef } from "react";
 import { BackgroundBeams } from "./ui/background-beams";
-import { Mail, Instagram, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
+import { RiDiscordLine } from "react-icons/ri";
 import Link from "next/link";
 import submit from "@/actions/action";
 import { isEmail } from "validator";
@@ -84,11 +85,11 @@ const Contact = () => {
             <Mail className="w-full h-full p-3" />
           </a>
           <a
-            href="https://www.instagram.com/ig_relix/"
+            href="https://discord.com/users/440030380888817684"
             className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center aspect-square bg-[#0a1415] shadow-[0_0_10px_0px_rgb(62,102,193)] rounded-full"
             target="_blank"
           >
-            <Instagram className="w-full h-full p-3" />
+            <RiDiscordLine className="w-full h-full p-3" />
           </a>
         </div>
       </div>
