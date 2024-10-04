@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Relix",
     description: "This is my portfolio",
-    url: "https://relx.vercel.app",
+    url: "https://relix.vercel.app",
     images: [
       "https://res.cloudinary.com/dkjnrcbib/image/upload/v1728059959/portfolio/eikbfptmb6e56gjeogc3.png",
     ],
