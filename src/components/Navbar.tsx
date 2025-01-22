@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const Navbar = ({ className }: { className?: string }) => {
   return (
-    <div className="fixed w-full bg-slate-700/20 backdrop-blur z-50 top-0">
+    <div className="fixed w-full bg-slate-700/20 backdrop-blur z-[99] top-0">
       <div
         className={cn(
           "hidden md:flex font-thin space-x-12 w-3/4 py-2 inset-x-0 justify-between mx-auto ",

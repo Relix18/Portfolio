@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "@/app/data.json";
+import data from "@/app/data.json";
 import { Border } from "./ui/moving-border";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
@@ -15,7 +15,7 @@ const Project = () => {
         </Border>
         <div className="h-[30rem] rounded-md flex flex-col bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
           {/* <InfiniteMovingCards
-            items={projects.projects}
+            items={data.projects}
             speed="normal"
             pauseOnHover={true}
           /> */}
