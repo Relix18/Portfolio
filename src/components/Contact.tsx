@@ -56,7 +56,7 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="rounded-lg p-3 w-1/3 relative z-10 mt-4  bg-[#31b6c2] hover:shadow-[0_0_10px_0px_rgb(62,102,193)]"
+              className="rounded-lg p-3 w-1/3 relative z-10 mt-4  bg-[#0d7680] hover:shadow-[0_0_4px_0px_rgb(62,102,193)]"
             >
               Send
             </button>
