@@ -1,16 +1,18 @@
 {
   "projects": [
     {
-      "name": "VistaKart",
-      "url": "https://vistakartv1.vercel.app",
-      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1708545483/portfolio/k3yc1rq9jkoukavnjdhf.jpg",
-      "desc": "An ecommerce platform for selling and buying products. Built with MERN stack."
+      "name": "TechyDeals",
+      "url": "https://techydeals.vercel.app/",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1737706256/portfolio/Techydeals_cmkvtw.png",
+      "stack": ["Reactjs", "Nodejs", "Express", "MongoDB"],
+      "description": "A fast and responsive e-commerce website designed to deliver a seamless shopping experience. Built with modern technologies, it features a user-friendly interface, secure checkout, product analytics, and an intuitive admin dashboard for effortless inventory and order management."
     },
     {
-      "name": "Messenger",
-      "url": "https://messengerv1.vercel.app",
-      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1709295184/portfolio/bnmpkexbtjd7bv8goew8.png",
-      "desc": "Messenger is a social media application. Built with Next.js, Tailwind, and MongoDB."
+      "name": "OrbitBlog",
+      "url": "https://orbitblog.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1737706255/portfolio/Orbitblog_zxweis.png",
+      "stack": ["Nextjs", "Nodejs", "Express", "Postgresql", "Prisma"],
+      "description": "A sleek and modern blog platform built with the PERN stack and Next.js. Featuring dynamic CMS integration, advanced post analytics, admin notifications, it offers a seamless experience for content creators and readers alike."
     }
   ]
 }

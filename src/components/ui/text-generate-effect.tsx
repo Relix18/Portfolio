@@ -22,7 +22,7 @@ export const TextGenerateEffect = ({
         },
         {
           duration: 1,
-          delay: stagger(0.05),
+          delay: stagger(0.02),
         }
       );
     }

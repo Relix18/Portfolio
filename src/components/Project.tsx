@@ -1,27 +1,23 @@
+"use client";
+
 import React from "react";
 import data from "@/app/data.json";
 import { Border } from "./ui/moving-border";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import { AnimatedTestimonials } from "./ui/animated-testimonials";
+import { Spotlight } from "./ui/spotlight-new";
 
 const Project = () => {
   return (
     <div
       id="projects"
-      className="bg-[#132324] w-full flex justify-center overflow-hidden"
+      className="bg-[#132324] relative w-full flex justify-center overflow-hidden"
     >
+      <Spotlight />
       <div className="w-3/4  py-8 md:py-16 flex justify-center items-center flex-col">
         <Border borderRadius="1.75rem" color="green" className="text-2xl">
           Projects
         </Border>
-        <div className="h-[30rem] rounded-md flex flex-col bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-          {/* <InfiniteMovingCards
-            items={data.projects}
-            speed="normal"
-            pauseOnHover={true}
-          /> */}
-
-          <h1 className="mt-20 text-xl md:text-2xl">Projects Coming Soon...</h1>
-        </div>
+        <AnimatedTestimonials testimonials={data.projects} />
       </div>
     </div>
   );

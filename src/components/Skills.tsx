@@ -126,7 +126,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div id="skills" className="h-[40rem] relative flex">
+    <div id="skills" className="h-[40rem] relative flex overflow-hidden">
       <div className="z-50 md:py-14 py-8 w-10/12 md:w-3/4  flex flex-col items-center mx-auto">
         <Border borderRadius="1.75rem" className="text-2xl">
           My Skills
