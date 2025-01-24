@@ -10,7 +10,7 @@
     {
       "name": "OrbitBlog",
       "url": "https://orbitblog.vercel.app",
-      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1737706255/portfolio/Orbitblog_zxweis.png",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1737715222/portfolio/v22z1atndhcphlyulfpb.png",
       "stack": ["Nextjs", "Nodejs", "Express", "Postgresql", "Prisma"],
       "description": "A sleek and modern blog platform built with the PERN stack and Next.js. Featuring dynamic CMS integration, advanced post analytics, admin notifications, it offers a seamless experience for content creators and readers alike."
     }

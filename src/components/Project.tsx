@@ -13,7 +13,7 @@ const Project = () => {
       className="bg-[#132324] relative w-full flex justify-center overflow-hidden"
     >
       <Spotlight />
-      <div className="w-3/4  py-8 md:py-16 flex justify-center items-center flex-col">
+      <div className="md:w-3/4 w-11/12 py-8 md:py-16 flex justify-center items-center flex-col">
         <Border borderRadius="1.75rem" color="green" className="text-2xl">
           Projects
         </Border>
