@@ -8,7 +8,7 @@ const Navbar = ({ className }: { className?: string }) => {
     <div className="fixed w-full bg-slate-700/20 backdrop-blur z-[99] top-0">
       <div
         className={cn(
-          "hidden md:flex font-thin space-x-12 w-3/4 py-2 inset-x-0 justify-between mx-auto ",
+          "hidden md:flex font-thin space-x-12 w-3/4 max-w-[1080px] py-2 inset-x-0 justify-between mx-auto ",
           className
         )}
       >

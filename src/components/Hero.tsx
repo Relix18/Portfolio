@@ -20,7 +20,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="flex md:w-3/4 w-11/12 items-center justify-center flex-col-reverse md:flex-row my-0 md:my-8 md:items-center md:justify-center antialiased bg-grid-white/[0.02] mx-auto overflow-hidden">
+    <div className="flex md:w-3/4 md:max-w-[1080px] w-11/12 items-center justify-center flex-col-reverse md:flex-row my-0 md:my-8 md:items-center md:justify-center antialiased bg-grid-white/[0.02] mx-auto overflow-hidden">
       <Spotlight className="-top-40 left-0 md:left-10 md:top-10" fill="green" />
 
       <div className="md:w-3/5 w-full">

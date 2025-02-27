@@ -22,7 +22,7 @@ const About = () => {
       id="about"
       className="shadow-[0_0_5px_0px_rgba(0,0,0,1)] flex items-center justify-center flex-col mt-10"
     >
-      <div className="md:w-3/4 w-11/12 my-8 md:my-28">
+      <div className="md:w-3/4 md:max-w-[1080px] w-11/12 my-8 md:my-28">
         <h1 className="text-3xl flex justify-center">About Me</h1>
         <TextGenerateEffect words={words} />
 

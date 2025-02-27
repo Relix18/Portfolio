@@ -20,7 +20,7 @@ const Contact = () => {
       <h1 className="text-3xl md:text-5xl z-10 mb-8">
         Let&#39;s Work Together
       </h1>
-      <div className="w-11/12  md:w-3/4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="w-11/12  md:w-3/4 md:max-w-[1080px] flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="w-full md:w-2/3 p-4 ">
           <form
             ref={ref}
