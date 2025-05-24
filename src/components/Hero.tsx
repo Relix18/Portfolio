@@ -8,7 +8,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 export default function Hero() {
   const word = [
     {
-      text: "MERN",
+      text: "Full",
     },
     {
       text: "Stack",
@@ -28,7 +28,7 @@ export default function Hero() {
         <h1 className="md:text-9xl text-6xl -ml-1 md:-ml-2">Relix</h1>
         <TypewriterEffectSmooth words={word} />
         <p className="mt-8 text-lg font-thin">
-          If you&#39;re looking for MERN Stack Developer who is not just
+          If you&#39;re looking for Full Stack Developer who is not just
           proficient but passionate about turning concepts into reality,
           let&#39;s connect! I&#39;m always excited about new opportunities and
           challenges that push the boundaries of what&#39;s possible in web

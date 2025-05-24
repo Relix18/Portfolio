@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import { Toaster } from "react-hot-toast";
 
 const fira = Fira_Code({
@@ -55,7 +54,7 @@ export default function RootLayout({
               },
             }}
           />
-          <Navbar />
+
           {children}
         </div>
       </body>
