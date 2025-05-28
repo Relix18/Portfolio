@@ -13,6 +13,13 @@
       "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1737715222/portfolio/v22z1atndhcphlyulfpb.png",
       "stack": ["Nextjs", "Nodejs", "Express", "Postgresql", "Prisma"],
       "description": "A sleek and modern blog platform built with the PERN stack and Next.js. Featuring dynamic CMS integration, advanced post analytics, admin notifications, it offers a seamless experience for content creators and readers alike."
+    },
+    {
+      "name": "ThinkWrite",
+      "url": "https://thinkwrite-three.vercel.app",
+      "img": "https://res.cloudinary.com/dkjnrcbib/image/upload/v1748415483/portfolio/uvhugtlrbi6vqmwwpbzp.png",
+      "stack": ["Nextjs", "Convex", "Liveblocks", "Tiptap", "Clerk"],
+      "description": "A cloud-based document editor, which has a similar look and feel to Google Docs, that allows users to collaborate in real-time. With Instant document creation, editable docs & instant sharing to a clean UI, with no lag—great for teams or individuals."
     }
   ]
 }
