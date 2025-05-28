@@ -37,7 +37,11 @@ export default function Hero() {
         <p className="mt-8 text-lg font-thin"></p>
       </div>
       <div className="md:w-2/5 w-full mt-12 flex flex-col items-center justify-center overflow-hidden rounded-[8rem]">
-        <Image className="w-full relative" src={Vector} alt="Vector" />
+        <Image
+          className="w-full relative object-cover"
+          src={Vector}
+          alt="Vector"
+        />
         <div className="w-[40rem] relative">
           {/* Gradients */}
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
